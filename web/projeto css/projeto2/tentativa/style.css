@@ -1,0 +1,26 @@
+.fundo{
+    background-color: bisque;
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.cabeçalho 
+{
+background: url('image.jpg');
+background-repeat: no-repeat;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+background-size: 100%;
+width:65% ;
+height: 500px;
+}
+.paragrafo {
+font-size: 20px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+background-color: rgb(244, 166, 138);
+}
+.links {
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgba(245, 204, 155, 0.888);
+    border: 2px;
+}

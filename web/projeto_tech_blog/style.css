@@ -1,25 +1,68 @@
 *{
     margin: 0;
     padding: 0;
-
 }
 body {
     font-size: 1em;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color:lightgrey ;
 }
-
+#branco {
+color: #fff ;
+}
 #area_cabeçalho {
-    background-color: orange;
+    background-color: #f7b600;
     text-align: center;
+
+}
+#area_logo{
+    padding: 10px;
+    margin:10px;
+}
+#area_menu {
+    padding: 10px;
+    margin: 10px;
+}
+#area_principal{
+    background-color: aqua;
+    margin: auto;
+    width: 920px;
+}
+#area-central, #area-lateral {
+    padding: 0;
+    margin: 0;
+}
+#area-central {
+    width: 660px;
+    float: left;
+    background-color: white;}
+
+#area-lateral { 
+    width: 240px;
+    float: right;
+    background-color: white;
+    
+}
+.postagem {
+    padding: 20px;
+    margin-bottom: 20px;
+    
+}
+#rodape {
+    background-color: #f7b600;
+    margin: auto;
+    clear: both;
 }
  a {
  text-decoration: none;
  padding: 10px;
- margin: 15;
  font-size: 1.5;
 
 }
- link, visited {
-color: fff;
+ a:link, a:visited {
+color: #fff;
 } 
+a:hover{
+    background-color: #fff;
+    color: #f7b600;
+}

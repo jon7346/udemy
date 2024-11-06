@@ -1,0 +1,21 @@
+body{
+  margin: 0;
+  padding: 0;  
+}
+#links{
+    padding:10px ;
+    margin: 22%;
+    margin-bottom: 40px;
+    background-color: brown;
+
+}
+#conteudo{
+  display:flow-root;
+  position:relative;
+  
+}
+
+#lateral{
+     
+    
+}

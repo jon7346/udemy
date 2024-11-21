@@ -3,18 +3,18 @@
     background: red;
 
  }
- to{
+  to{
  background: green;
  }
- 
     
 }
-.caixa{
+#caixa{
  background-color: red;
  height:300px;
  width: 300px;
  border: 1px;
  margin: 0;
  padding: 0;
-    
+ animation-name: animacao;
+ animation: 3s  ;
 }

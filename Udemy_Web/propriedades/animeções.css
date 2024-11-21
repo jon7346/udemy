@@ -1,0 +1,20 @@
+@keyframes animacao {
+ from{
+    background: red;
+
+ }
+ to{
+ background: green;
+ }
+ 
+    
+}
+.caixa{
+ background-color: red;
+ height:300px;
+ width: 300px;
+ border: 1px;
+ margin: 0;
+ padding: 0;
+    
+}

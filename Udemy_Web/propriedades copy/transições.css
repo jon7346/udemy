@@ -1,0 +1,10 @@
+div #Transição{
+    width: 100px;
+    height: 100px;
+    background: aliceblue;
+}
+div #Transição:hover{
+    width: 100px;
+    height: 100px;
+    background: aquamarine;
+}

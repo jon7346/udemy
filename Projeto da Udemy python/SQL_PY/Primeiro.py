@@ -27,6 +27,13 @@ cursor.execute(
     'weight REAL'
     ')'
 )
+connection.commit()
+
+cursor.execute(
+    'INSERT INTO {TABLE_NAME} (id, name, weight)'
+    'VALUES (NULL, "Luiz")'
+    
+)
 
 cursor.close()
 connection.close()

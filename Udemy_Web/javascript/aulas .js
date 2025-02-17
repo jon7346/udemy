@@ -25,6 +25,7 @@ document.write('c: ' + c+ '<br />')
 
 //ifelse 
 //operador 
+/*
 if(2 =2 && 3 >= 1 && 'a' == 'b' ){
     document.write('verdadeiro' )
 }
@@ -37,3 +38,4 @@ if ( 4 == 2 || 3 >= 1 || 'a' == 'b') {
 }
 else {
  document.write('falso')}   
+*/

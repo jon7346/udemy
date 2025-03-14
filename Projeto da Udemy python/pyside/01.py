@@ -1,3 +1,3 @@
 import PySide6.QtCore 
 
-print(PySide6.__version__ )
+help(PySide6.QtCore )

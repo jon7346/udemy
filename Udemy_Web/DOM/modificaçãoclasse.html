@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .estilo{
+            background-color: aquamarine;
+            height: 55px;
+            width: 55px;
+        }
+        .estilo2{
+            background-color: bisque;
+            width: 40px;
+            height: 100px;
+        }
+    </style>
+    <script>
+        function mudar(classe){
+        document.getElementsById('estilo').className = 'estilo2'
+        }
+    </script>
+</head>
+<body>
+    <div id="estilo" class="estilo"></div>
+    <button type="button" onclick="mudar('estilo2')"> mudar </button>
+</body>
+</html>
